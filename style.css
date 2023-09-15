@@ -1,0 +1,73 @@
+:root {
+  --primary-color: lightcoral;
+  --second-color: dimgrey;
+  --tertiary-color: gainsboro;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: lato, sans-serif;
+  font-size: 15px;
+}
+
+#container {
+  background-color: #f7f7f7;
+  border-radius: 5%;
+  height: 30rem;
+  margin: 100px auto;
+  width: 20rem;
+}
+
+.title {
+  background-color: var(--tertiary-color);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: var(--second-color);
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tipsForm {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.formInput {
+  background-color: white;
+  padding: 5px 5px 8px 8px;
+  width: 3rem;
+  border-radius: 3px;
+}
+
+formInput:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.formSelect {
+  font-size: .75rem;
+  padding: 5px;
+  width: 10rem;
+}
+
+.formSubmit {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 3rem;
+  margin: 2rem auto;
+  text-transform: uppercase;
+  width: 12.5rem;
+}
+
+#totalTip {
+  font-size: 1.25rem;
+  margin-top: 5px;
+  text-align: center;
+}
